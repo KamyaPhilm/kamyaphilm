@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="photo/Kamya Philm Trans.png">
+  <script type="text/javascript" src="javas.js"></script>
 
   <!--w3 css-->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -24,6 +25,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 <style>
+	#ttug{
+		display: none;
+	}
   html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
   
@@ -33,6 +37,24 @@
 
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+	<!--TechTeach Uganda-->
+	<div class="w3-content w3-text-indigo w3-white w3-border w3-border-black w3-panel w3-display-container w3-row-padding" id="ttug">
+		<span onclick="this.parentElement.style.display='none'" class="w3-button w3-large w3-display-topright"><strong>&times;</strong></span>
+		
+		<a href="https://kamyaphilm.github.io/techteachuganda/" target="_blank" class="w3-text-indigo w3-hover-text-blue" style="text-decoration: none;">
+		<div class="w3-col w3-padding w3-center" style="width:200px">
+			<img src="photo/TechTeach logo.png" alt="TechTeach logo" class="w3-image">
+		</div>
+
+		<div class="w3-rest w3-padding w3-mobile">
+			<h3 class="w3-center">TechTeach Uganda</h3>
+			<h5>Learn how to make websites for free using HTML, CSS, Javascript and BOOTSTRAP.</h5>
+			<h5>Are you interested in programming? Let's learn how to program with PYTHON.</h5>
+			<h5>Don't you know how to use a computer, learn/update your skills: Basic I.T, MS Office, Internet, Email e.t.c.</h5> <strong>All for free.</strong>
+		</div>
+		</a>		
+	</div>
 
   <!-- The Grid -->
   <div class="w3-row-padding">
@@ -166,8 +188,8 @@
       </div>
 
       <!--awards section-->
-      <div class="w3-container w3-center w3-card w3-indigo"><h1>Awards</h1></div>
-
+      <div class="w3-white w3-container w3-card-4">
+      <h1 class="w3-stretch w3-center w3-indigo w3-padding">Awards</h1>
       <div class="w3-row-padding w3-margin-top">
         <div class="w3-third">
           <div class="w3-card">
@@ -225,15 +247,19 @@
           </div>
         </div>
 
-        <div class="w3-third">
-          <div class="w3-card">
-            <img src="photo/prefect.JPG" class="w3-opacity w3-hover-opacity-off" alt="Education and Information" style="width:100%">
-            <div class="w3-container">
-              <h5 class="w3-center">Education&Information</h5>
-            </div>
-          </div>
-        </div>
-
+        <div class="w3-row-padding w3-margin-top">
+	        <div class="w3-third">
+	          <div class="w3-card">
+	            <img src="photo/prefect.JPG" class="w3-opacity w3-hover-opacity-off" alt="Education and Information" style="width:100%">
+	            <div class="w3-container">
+	              <h5 class="w3-center">Education&Information</h5>
+	          	</div>
+	          </div>
+	        </div>
+	    </div>
+	    <hr>
+	    <br>
+       <!---->
       </div>
 
     <!-- End Right Column -->
